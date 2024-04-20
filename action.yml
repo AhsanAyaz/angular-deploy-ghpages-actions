@@ -31,5 +31,5 @@ inputs:
     description: "Will not fail the step if anything fails"
     default: false
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
